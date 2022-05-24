@@ -1,14 +1,16 @@
 // Copyright (c) 2012 MIT License by 6.172 Staff
 
+#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdint.h>
 
-void print_size(char* type, size_t size) {
+void print_size(char *type, size_t size)
+{
     printf("size of %s : %zu bytes \n", type, size);
 }
 
-int main() {
+int main()
+{
     // Please print the sizes of the following types:
     // int, short, long, char, float, double, unsigned int, long long
     // uint8_t, uint16_t, uint32_t, and uint64_t, uint_fast8_t,
@@ -43,7 +45,8 @@ int main() {
     //      PRINT_SIZE(short);
 
     // Composite types have sizes too.
-    typedef struct {
+    typedef struct
+    {
         int id;
         int year;
     } student;
@@ -51,7 +54,6 @@ int main() {
     student you;
     you.id = 12345;
     you.year = 4;
-
 
     // Array declaration. Use your macro to print the size of this.
     int x[5];

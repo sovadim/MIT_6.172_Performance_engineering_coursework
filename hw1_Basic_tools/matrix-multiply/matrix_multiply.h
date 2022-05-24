@@ -20,7 +20,6 @@
  * IN THE SOFTWARE.
  **/
 
-
 /**
  * Matrix Multiply
  *
@@ -38,21 +37,22 @@
 
 #define MATRIX_MULTIPLY_H_INCLUDED
 
-typedef struct {
+typedef struct
+{
     int rows;
     int cols;
-    int** values;
+    int **values;
 } matrix;
 
 // Multiply matrix A*B, store result in C.
-int matrix_multiply_run(const matrix* A, const matrix* B, matrix* C);
+int matrix_multiply_run(const matrix *A, const matrix *B, matrix *C);
 
 // Allocates a row-by-cols matrix and returns it
-matrix* make_matrix(int rows, int cols);
+matrix *make_matrix(int rows, int cols);
 
 // Frees an allocated matrix
-void free_matrix(matrix* m);
+void free_matrix(matrix *m);
 
 // Print matrix
-void print_matrix(const matrix* m);
-#endif  // MATRIX_MULTIPLY_H_INCLUDED
+void print_matrix(const matrix *m);
+#endif // MATRIX_MULTIPLY_H_INCLUDED

@@ -27,24 +27,27 @@ Memory access analysis
 
 */
 
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include <sys/time.h>
 
-# define n 4096
+#define n 4096
 
 double A[n][n];
 double B[n][n];
 double C[n][n];
 
-float tdiff(struct timeval *start, struct timeval *end) {
-    return (end->tv_sec - start->tv_sec) +
-        1e-6 * (end->tv_usec - start->tv_usec);
+float tdiff(struct timeval *start, struct timeval *end)
+{
+    return (end->tv_sec - start->tv_sec) + 1e-6 * (end->tv_usec - start->tv_usec);
 }
 
-int main(int argc, const char *argv[]) {
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
+int main(int argc, const char *argv[])
+{
+    for (int i = 0; i < n; ++i)
+    {
+        for (int j = 0; j < n; ++j)
+        {
             A[i][j] = (double)rand() / (double)RAND_MAX;
             B[i][j] = (double)rand() / (double)RAND_MAX;
             C[i][j] = 0;
@@ -56,9 +59,12 @@ int main(int argc, const char *argv[]) {
 
     // Reordering loops to [i, k, j] can give x10 time speed-up
     // It gives about 1% of cache misses, less than other loop permutations
-    for (int i = 0; i < n; ++i) {
-        for (int k = 0; k < n; ++k) {
-            for (int j = 0; j < n; ++j) {
+    for (int i = 0; i < n; ++i)
+    {
+        for (int k = 0; k < n; ++k)
+        {
+            for (int j = 0; j < n; ++j)
+            {
                 C[i][j] += A[i][k] * B[k][j];
             }
         }
