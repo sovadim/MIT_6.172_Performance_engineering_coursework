@@ -36,3 +36,6 @@
 
 # Java
 *.class
+
+# Tools
+cachegrind*
