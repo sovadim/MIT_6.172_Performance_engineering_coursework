@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] Lectures (1/23)
+- [ ] Lectures (2/23)
 - [ ] Homeworks (1/10)
 - [ ] Projects (0/4)
 
