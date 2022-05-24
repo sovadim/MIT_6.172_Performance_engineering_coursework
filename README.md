@@ -10,3 +10,11 @@ https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fa
 * compiler flags
 * parallel algorithms of matrix multiplication
 * vectorization
+
+## Homeworks
+
+### 1. Basic Tools, C Primer
+
+* valgrind
+* asan
+* llvm-cov
