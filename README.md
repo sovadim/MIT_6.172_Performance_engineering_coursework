@@ -4,6 +4,14 @@ https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fa
 
 Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
+## Status
+
+In progress
+
+- [ ] Lectures (1/23)
+- [ ] Homeworks (1/10)
+- [ ] Projects (0/4)
+
 ## Lectures
 
 ### 1. Introduction and matrix multiplication
