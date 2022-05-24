@@ -1,6 +1,7 @@
 # MIT 6.172 Performance Engineering Fall 2018, coursework
 
-https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/
+[course link](https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/)\
+[playlist with lectures on youtube](https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf)
 
 Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
@@ -22,6 +23,11 @@ In progress
 * vectorization
 
 ### 2. Bentley Rules for optimizing work
+
+* data structures
+* logic
+* loops
+* functions
 
 ## Homeworks
 
