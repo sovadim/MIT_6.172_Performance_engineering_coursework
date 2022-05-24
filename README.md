@@ -2,6 +2,8 @@
 
 https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/
 
+Instructors: Prof. Charles Leiserson, Prof. Julian Shun
+
 ## Lectures
 
 ### 1. Introduction and matrix multiplication
@@ -10,6 +12,8 @@ https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fa
 * compiler flags
 * parallel algorithms of matrix multiplication
 * vectorization
+
+### 2. Bentley Rules for optimizing work
 
 ## Homeworks
 
