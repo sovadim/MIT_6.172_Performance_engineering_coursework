@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] Lectures (2/23)
+- [ ] Lectures (3/23)
 - [ ] Homeworks (1/10)
 - [ ] Projects (0/4)
 
@@ -28,6 +28,10 @@ In progress
 * logic
 * loops
 * functions
+
+### 3. Bit Hacks
+
+* Bit operations and their applications
 
 ## Homeworks
 
