@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 import subprocess, os, sys, re
 
+
 def exitWithError(error):
     print(error)
     sys.exit(1)
+
 
 def runAndReadOutput(args):
     if args is str:
@@ -13,7 +15,10 @@ def runAndReadOutput(args):
     except subprocess.CalledProcessError as e:
         exitWithError("ERROR: runtime error with %s" % str(args))
 
-def run(path): runAndReadOutput(path)
+
+def run(path):
+    runAndReadOutput(path)
+
 
 def runAndCheckSizes():
     output = runAndReadOutput("./sizes")
@@ -21,39 +26,46 @@ def runAndCheckSizes():
 
     lines = set([x.replace(" ", "") for x in output.strip().lower().split("\n")])
     types = [
-        ( "int", 4 ),
-        ( "short", 2 ),
-        ( "long", 8 ),
-        ( "char", 1 ),
-        ( "float", 4 ),
-        ( "double", 8 ),
-        ( "unsigned int", 4 ),
-        ( "long long", 8 ),
-        ( "uint8_t", 1 ),
-        ( "uint16_t", 2 ),
-        ( "uint32_t", 4 ),
-        ( "uint64_t", 8 ),
-        ( "uint_fast8_t", 1 ),
-        ( "uint_fast16_t", 8 ),
-        ( "uintmax_t", 8 ),
-        ( "intmax_t", 8 ),
-        ( "__int128", 16 ),
-        ( "uint32_t", 4 ),
-        ( "uint64_t", 8 ),
-        ( "student", 8 ),
+        ("int", 4),
+        ("short", 2),
+        ("long", 8),
+        ("char", 1),
+        ("float", 4),
+        ("double", 8),
+        ("unsigned int", 4),
+        ("long long", 8),
+        ("uint8_t", 1),
+        ("uint16_t", 2),
+        ("uint32_t", 4),
+        ("uint64_t", 8),
+        ("uint_fast8_t", 1),
+        ("uint_fast16_t", 8),
+        ("uintmax_t", 8),
+        ("intmax_t", 8),
+        ("__int128", 16),
+        ("uint32_t", 4),
+        ("uint64_t", 8),
+        ("student", 8),
     ]
 
     for typ in types:
-        print (expected_output_format % typ)
+        print(expected_output_format % typ)
         if (expected_output_format % typ).replace(" ", "") not in lines:
-            exitWithError("ERROR: couldn't find type %s (or it has the incorrect value) in sizes output" % typ[0])
+            exitWithError(
+                "ERROR: couldn't find type %s (or it has the incorrect value) in sizes output"
+                % typ[0]
+            )
+
 
 def runAndCheckSwap():
     expected_output = "k = 2, m = 1\n"
     output = runAndReadOutput("./swap")
 
     if output != expected_output:
-        exitWithError('ERROR: actual output: "%s", expected "%s"' % (output, expected_output))
+        exitWithError(
+            'ERROR: actual output: "%s", expected "%s"' % (output, expected_output)
+        )
+
 
 def build(make_arg, filename):
     print("\nRunning make %s ... " % make_arg)
@@ -69,8 +81,8 @@ def build(make_arg, filename):
 print("Running verifying script ... ")
 
 print("\nChecking that the Makefile exists ... ")
-if not os.path.isfile('Makefile'):
-    exitWithError('ERROR: Makefile does not exist.')
+if not os.path.isfile("Makefile"):
+    exitWithError("ERROR: Makefile does not exist.")
 print("Good!")
 
 build("sizes", "sizes")

@@ -18,7 +18,7 @@ for i in range(n):
 
 end = time()
 
-print("%0.6f" % (end - start)) # Running time is supposed to be about 6 hours
+print("%0.6f" % (end - start))  # Running time is supposed to be about 6 hours
 
 
 """
