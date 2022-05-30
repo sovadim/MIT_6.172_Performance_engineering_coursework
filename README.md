@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] Lectures (3/23)
+- [ ] Lectures (4/23)
 - [ ] Homeworks (1/10)
 - [ ] Projects (0/4)
 
@@ -32,6 +32,15 @@ In progress
 ### 3. Bit Hacks
 
 * Bit operations and their applications
+
+### 4. Assembly Language & Computer Architecture
+
+* Assembly language overview
+* Floating-point and vector hardware
+* Overview of computer architecture
+* Superscalar processing
+* Out-of-order execution
+* Branch prediction
 
 ## Homeworks
 
