@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] Lectures (4/23)
+- [ ] Lectures (5/23)
 - [ ] Homeworks (1/10)
 - [ ] Projects (0/4)
 
@@ -41,6 +41,12 @@ In progress
 * Superscalar processing
 * Out-of-order execution
 * Branch prediction
+
+### 5. C to Assembly
+
+* LLVM IR Primer
+* C to LLVM IR
+* LLVM IR to Assembly
 
 ## Homeworks
 
