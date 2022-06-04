@@ -10,7 +10,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 In progress
 
 - [ ] Lectures (5/23)
-- [ ] Homeworks (1/10)
+- [ ] Homeworks (2/10)
 - [ ] Projects (0/4)
 
 ## Lectures
@@ -55,3 +55,11 @@ In progress
 * valgrind
 * asan
 * llvm-cov
+
+### 2. Profiling
+
+* perf
+* cachegrind
+* inlining analysis
+* pointers vs arrays
+* efficient memory usage
