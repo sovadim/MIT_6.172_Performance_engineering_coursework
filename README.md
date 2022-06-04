@@ -10,7 +10,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 In progress
 
 - [ ] Lectures (5/23)
-- [ ] Homeworks (2/10)
+- [ ] Assignments (2/10)
 - [ ] Projects (0/4)
 
 ## Lectures
@@ -48,7 +48,7 @@ In progress
 * C to LLVM IR
 * LLVM IR to Assembly
 
-## Homeworks
+## Assignments
 
 ### 1. Basic Tools, C Primer
 
