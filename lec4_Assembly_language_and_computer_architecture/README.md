@@ -49,11 +49,13 @@ Type of operation and examples
     * Sign or zero extension: __movs, movz__
     * Stack: __push, pop__\
 <br>
+
 * Ariphmetic and logic
     * Integer ariphmetic: __add, sub, mul, imul, div, idiv, lea, sal, sar, shl, shr, rol, ror, inc, dec, neg__
     * Binary logic: __and, or, xor, not__
     * Boolean logic: __test, cmp__\
 <br>
+
 * Control transfer
     * Unconditional jumps: __jmp__
     * Conditional jumps: __j \<condition\>__
