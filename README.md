@@ -9,9 +9,9 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] Lectures (5/23)
-- [ ] Assignments (2/10)
-- [ ] Projects (0/4)
+- [ ] [Lectures](#lectures) (5/23)
+- [ ] [Assignments](#assignments) (3/10)
+- [ ] [Projects](#projects) (0/4)
 
 ## Lectures
 
@@ -63,3 +63,10 @@ In progress
 * inlining analysis
 * pointers vs arrays
 * efficient memory usage
+
+### 3. Vectorization
+
+* vectorization in clang
+* sse and avx2 comparison
+* performance measure
+* vectorization cost

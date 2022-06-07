@@ -40,3 +40,5 @@
 # Tools
 cachegrind*
 graph.svg
+
+.DS_Store
