@@ -53,6 +53,14 @@ In progress
 * Shared-memory hardware
 * Concurrency platforms
 
+### 7. Races and Parallelism
+
+* Race conditions
+* Cilksan
+* Work and span analysis
+* Cilkscale
+* Scheduling
+
 ## Assignments
 
 ### 1. Basic Tools, C Primer
