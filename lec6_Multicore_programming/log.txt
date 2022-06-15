@@ -1,0 +1,36 @@
+LD_LIBRARY_PATH="/home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/lib:/home/sovadim/softwares/cilkrts/build" \
+/home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/bin/clang++ \
+-Wl,-rpath=/home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/lib \
+-std=c++20 \
+-fcilkplus \
+fib_cilk.cpp -o fib_cilk --verbose
+clang version 10.0.1 (git@github.com:OpenCilk/opencilk-project.git 8435006eea5d32f9cf895a666496b89613e2cbc1)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/11
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /usr/local/cuda-11.3, version 7.0
+ "/home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/bin/clang-10" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -main-file-name fib_cilk.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/lib/clang/10.0.1 -cxx-isystem /usr/local/cuda/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward -internal-isystem /usr/local/include -internal-isystem /home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/lib/clang/10.0.1/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=c++20 -fdeprecated-macro -fdebug-compilation-dir /home/sovadim/workspace/MIT_6.172_Performance_engineering_coursework/lec6_Multicore_programming -ferror-limit 19 -fmessage-length 0 -fcilkplus -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o /tmp/fib_cilk-953257.o -x c++ fib_cilk.cpp
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/cuda/include
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11
+ /usr/lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward
+ /usr/local/include
+ /home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/lib/clang/10.0.1/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+ "/usr/bin/ld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o fib_cilk /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -L/home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/bin/../lib -L/lib -L/usr/lib -rpath=/home/sovadim/softwares/opencilk/OpenCilk-10.0.1-Linux/lib /tmp/fib_cilk-953257.o -lcilkrts -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtend.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+/usr/bin/ld: cannot find -lcilkrts: No such file or directory
+clang-10: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [Makefile:16: fib_cilk] Error 1

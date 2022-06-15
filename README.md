@@ -48,6 +48,11 @@ In progress
 * C to LLVM IR
 * LLVM IR to Assembly
 
+### 6. Multicore Programming
+
+* Shared-memory hardware
+* Concurrency platforms
+
 ## Assignments
 
 ### 1. Basic Tools, C Primer
