@@ -61,6 +61,11 @@ In progress
 * Cilkscale
 * Scheduling
 
+### 8. Analysis of Multithreaded Algorithms
+
+* Parallelisation analysis
+* Cilk loop parallelism
+
 ## Assignments
 
 ### 1. Basic Tools, C Primer
