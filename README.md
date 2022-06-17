@@ -66,6 +66,14 @@ In progress
 * Parallelisation analysis
 * Cilk loop parallelism
 
+### 9. What Compilers Can and Cannot Do
+
+* Compiler reports
+* Optimizing a scalar
+* Optimizing a structure
+* Optimizing function calls
+* Optimizing loops
+
 ## Assignments
 
 ### 1. Basic Tools, C Primer
