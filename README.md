@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (9/23)
+- [ ] [Lectures](#lectures) (10/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -73,6 +73,12 @@ In progress
 * Optimizing a structure
 * Optimizing function calls
 * Optimizing loops
+
+10. Measurement and Timing
+
+* Timing variability
+* Ways to measure time
+* Interpretation of measurements
 
 ## Assignments
 
