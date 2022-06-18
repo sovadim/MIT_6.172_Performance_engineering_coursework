@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (10/23)
+- [ ] [Lectures](#lectures) (11/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -79,6 +79,11 @@ In progress
 * Timing variability
 * Ways to measure time
 * Interpretation of measurements
+
+11. Storage Allocation
+
+* Stack and heap allocation
+* Garbage collection
 
 ## Assignments
 
