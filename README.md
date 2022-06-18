@@ -74,13 +74,13 @@ In progress
 * Optimizing function calls
 * Optimizing loops
 
-10. Measurement and Timing
+### 10. Measurement and Timing
 
 * Timing variability
 * Ways to measure time
 * Interpretation of measurements
 
-11. Storage Allocation
+### 11. Storage Allocation
 
 * Stack and heap allocation
 * Garbage collection
