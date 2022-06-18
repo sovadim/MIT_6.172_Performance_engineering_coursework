@@ -17,7 +17,7 @@ In progress
 
 ### 1. Introduction and matrix multiplication
 
-* cache-effiency
+* cache-efficiency
 * compiler flags
 * parallel algorithms of matrix multiplication
 * vectorization
@@ -63,7 +63,7 @@ In progress
 
 ### 8. Analysis of Multithreaded Algorithms
 
-* Parallelisation analysis
+* Parallelization analysis
 * Cilk loop parallelism
 
 ### 9. What Compilers Can and Cannot Do
