@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (12/23)
+- [ ] [Lectures](#lectures) (13/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -90,6 +90,10 @@ In progress
 * Virtual memory allocation
 * Cactus stack
 * Parallel allocation strategies.
+
+### 13. The Cilk Runtime System
+
+* Internals of Cilk runtime system
 
 ## Assignments
 
