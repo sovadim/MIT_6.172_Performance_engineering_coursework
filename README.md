@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (11/23)
+- [ ] [Lectures](#lectures) (12/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -84,6 +84,12 @@ In progress
 
 * Stack and heap allocation
 * Garbage collection
+
+### 12. Parallel Storage Allocation
+
+* Virtual memory allocation
+* Cactus stack
+* Parallel allocation strategies.
 
 ## Assignments
 
