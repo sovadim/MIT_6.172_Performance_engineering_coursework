@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (14/23)
+- [ ] [Lectures](#lectures) (15/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -100,6 +100,11 @@ In progress
 * Cache associativity
 * Cache-aware algorithms
 * Cache-oblivious algorithms
+
+### 15. Cache-Oblivious Algorithms
+
+* Cache-oblivious stencil computations
+* Cache-oblivious sorting
 
 ## Assignments
 
