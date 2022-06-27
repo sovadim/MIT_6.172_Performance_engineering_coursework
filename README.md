@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (13/23)
+- [ ] [Lectures](#lectures) (14/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -89,11 +89,17 @@ In progress
 
 * Virtual memory allocation
 * Cactus stack
-* Parallel allocation strategies.
+* Parallel allocation strategies
 
 ### 13. The Cilk Runtime System
 
 * Internals of Cilk runtime system
+
+### 14. Caching and Cache-Efficient Algorithms
+
+* Cache associativity
+* Cache-aware algorithms
+* Cache-oblivious algorithms
 
 ## Assignments
 
