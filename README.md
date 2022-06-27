@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (15/23)
+- [ ] [Lectures](#lectures) (16/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -105,6 +105,14 @@ In progress
 
 * Cache-oblivious stencil computations
 * Cache-oblivious sorting
+
+### 16. Nondeterministic Parallel Programming
+
+* Nondeterministic parallel programming
+* Atomicity
+* Data races
+* Deadlock
+* Transactional memory
 
 ## Assignments
 
