@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (16/23)
+- [ ] [Lectures](#lectures) (17/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -113,6 +113,14 @@ In progress
 * Data races
 * Deadlock
 * Transactional memory
+
+### 17. Synchronization Without Locks
+
+* Sequential consistency
+* Mutual exclusion without locks
+* Relaxed memory consistency
+* Instruction reordering
+* Compare-and-swap
 
 ## Assignments
 
