@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (17/23)
+- [ ] [Lectures](#lectures) (18/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -121,6 +121,12 @@ In progress
 * Relaxed memory consistency
 * Instruction reordering
 * Compare-and-swap
+
+### 18. Domain Specific Languages and Autotuning
+
+* GraphIt
+* Halide
+* OpenTuner
 
 ## Assignments
 
