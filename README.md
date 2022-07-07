@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (18/23)
+- [ ] [Lectures](#lectures) (19/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -127,6 +127,10 @@ In progress
 * GraphIt
 * Halide
 * OpenTuner
+
+### 19. Leiserchess Codewalk
+
+* Project 4 overview
 
 ## Assignments
 
