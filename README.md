@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (19/23)
+- [ ] [Lectures](#lectures) (20/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -131,6 +131,11 @@ In progress
 ### 19. Leiserchess Codewalk
 
 * Project 4 overview
+
+### 20. Speculative Parallelism & Leiserchess
+
+* Speculative parallelism
+* More project 4 insights
 
 ## Assignments
 
