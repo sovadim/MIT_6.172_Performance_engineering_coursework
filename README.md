@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (21/23)
+- [ ] [Lectures](#lectures) (22/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -143,6 +143,12 @@ In progress
 * The traveling salesperson problem
 * A sequence of TSP algorithms
 * Principles of algorithm engineering
+
+### 22. Graph Optimization
+
+* Graph representations
+* Breadth-first search
+* Graph compression/reordering
 
 ## Assignments
 
