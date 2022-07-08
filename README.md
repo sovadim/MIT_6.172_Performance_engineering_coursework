@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (20/23)
+- [ ] [Lectures](#lectures) (21/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -136,6 +136,13 @@ In progress
 
 * Speculative parallelism
 * More project 4 insights
+
+### 21. Tuning a TSP Algorithm
+
+* Review of recursive generation
+* The traveling salesperson problem
+* A sequence of TSP algorithms
+* Principles of algorithm engineering
 
 ## Assignments
 
