@@ -9,7 +9,7 @@ Instructors: Prof. Charles Leiserson, Prof. Julian Shun
 
 In progress
 
-- [ ] [Lectures](#lectures) (22/23)
+- [x] [Lectures](#lectures) (23/23)
 - [ ] [Assignments](#assignments) (3/10)
 - [ ] [Projects](#projects) (0/4)
 
@@ -149,6 +149,10 @@ In progress
 * Graph representations
 * Breadth-first search
 * Graph compression/reordering
+
+### 23. High Performance in Dynamic Languages
+
+* Julia overview
 
 ## Assignments
 
